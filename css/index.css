@@ -1,0 +1,40 @@
+.title-content {
+    background-color: #A5BF13;
+    text-align: center;
+    padding: 20px;
+}
+
+.container-pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-page {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid #62929E;
+    border-radius: 2%;
+}
+
+.container-page img{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+.container-page a {
+    text-decoration: none;
+    color: #62929E;
+}
+
+.container-page h2{
+    color: #62929E;
+}

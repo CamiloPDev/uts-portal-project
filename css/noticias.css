@@ -1,0 +1,35 @@
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+article {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+    margin-top: 0;
+}
+
+article time {
+    display: block;
+    margin-top: 0.5rem;
+    color: #666;
+}
+
+footer {
+    background-color: #A5BF13;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
