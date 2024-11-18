@@ -1,56 +1,40 @@
-* {
-    font-family: "Geist Mono", monospace;
-    padding: 0;
-    margin: 0;
-}
-
-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    border-bottom: 1px solid gray;
-    box-shadow: 0px 4px 6px gray;
-    padding: 5px;
-}
-
-.list-menu {
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.list-menu li {
-    margin: 10px;
-}
-
-.list-menu a {
-    text-decoration: none;
-    color: gray;
-}
-
-.list-menu a:hover {
-    font-size: 20px;
-    transition: 0.5s;
-}
-
-.header-image {
-    width: 200px;
-    height: 100px;
-    margin-right: 25px;
+.title-content {
+    background-color: #A5BF13;
+    text-align: center;
+    padding: 20px;
 }
 
 .container-pages {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .container-page {
+    width: 300px;
+    height: 350px;
     display: flex;
     flex-direction: column;
+    text-decoration: none;
+    text-align: center;
     margin: 10px;
-    border: 1px solid gray;
+    padding: 10px;
+    border: 3px solid #62929E;
+    border-radius: 2%;
 }
+
 .container-page img{
     width: 300px;
     height: 300px;
+    margin-bottom: 15px;
+}
+
+.container-page a {
+    text-decoration: none;
+    color: #62929E;
+}
+
+.container-page h2{
+    color: #62929E;
 }
