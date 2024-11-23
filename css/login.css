@@ -1,0 +1,86 @@
+/* Estilo general del cuerpo */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+  background-color: #ffffff;
+  padding: 30px 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Título del contenedor */
+.container_title .title {
+  font-size: 24px;
+  color: #a5bf13;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* Formulario */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+/* Etiquetas del formulario */
+.label {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Inputs */
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Botón de envío */
+.button_submit {
+  background-color: #a5bf13;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.button_submit:hover {
+  background-color: #8ca711;
+}
+
+/* Enlace de redirección */
+.redirect {
+  color: #a5bf13;
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 10px;
+  align-self: flex-start;
+}
+
+.redirect:hover {
+  text-decoration: underline;
+}
