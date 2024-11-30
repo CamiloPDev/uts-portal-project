@@ -1,0 +1,55 @@
+.title-content {
+  background-color: #a5bf13;
+  text-align: center;
+  padding: 20px;
+}
+
+.container-pages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container-page {
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 3px solid #62929e;
+  border-radius: 2%;
+}
+
+.container-page img {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 15px;
+}
+
+.container-page a {
+  text-decoration: none;
+  color: #62929e;
+}
+
+.container-page h2 {
+  color: #62929e;
+}
+
+/* Estilo del botón de cerrar sesión */
+.logoutButton {
+  background-color: #a5bf13; /* Color de fondo */
+  color: white; /* Color del texto */
+  border: none; /* Elimina el borde */
+  padding: 10px 20px; /* Añade relleno */
+  cursor: pointer; /* Cambia el cursor al pasar */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 16px; /* Tamaño de fuente */
+}
+
+.logoutButton:hover {
+  background-color: #8ca211; /* Color de fondo al pasar el mouse */
+}
