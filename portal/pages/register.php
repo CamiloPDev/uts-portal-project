@@ -1,3 +1,17 @@
+<?php
+if (isset($_POST['nombre'])) {
+    $nombre = $_POST['nombre'];
+} else {
+    $nombre = '';
+}
+
+if (isset($_POST['id'])) {
+    $id = $_POST['id'];
+} else {
+    $id = '';
+}
+?>
+
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -9,7 +23,7 @@
   <body>
     <div class="container">
       <h1 class="title">Registro</h1>
-      <form id="registerForm">
+      <form action="page/procesar.php" method="POST" id="registerForm">
         <label for="username">Usuario:</label>
         <input type="text" id="username" name="username" required />
 
@@ -24,11 +38,11 @@
           required
         />
 
-        <button type="submit">Registrar</button>
-      </form>
-      <p>¿Ya tienes cuenta? <a href="login.html">Inicia sesión aquí</a>.</p>
-    </div>
+        <!-- <button type="submit">Registrar</button> -->
+        <input class="button_submit" type="submit" name="btnRegistrar" value="Registrar">
 
-    <script src="../js/register.js"></script>
+      </form>
+      <p>¿Ya tienes cuenta? <a href="login.php">Inicia sesión aquí</a>.</p>
+    </div>
   </body>
 </html>

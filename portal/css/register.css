@@ -39,7 +39,7 @@ input {
   font-size: 14px;
 }
 
-button {
+/* button {
   background-color: #a5bf13;
   color: white;
   border: none;
@@ -51,7 +51,7 @@ button {
 
 button:hover {
   background-color: #8ca211;
-}
+} */
 
 p {
   text-align: center;
@@ -61,4 +61,22 @@ p {
 a {
   color: #a5bf13;
   text-decoration: none;
+}
+
+.button_submit {
+  background-color: #a5bf13;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.button_submit:hover {
+  background-color: #8ca711;
 }

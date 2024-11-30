@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -25,7 +29,7 @@
           <li><a href="index.html">Inicio</a></li>
           <li><a href="pages/noticias.html">Noticias</a></li>
           <li><a href="pages/admisiones.html">Admisiones</a></li>
-          <li id="loginLink"><a href="pages/login.html">Login</a></li>
+          <li id="loginLink"><a href="pages/login.php">Login</a></li>
           <li><button class="logoutButton" id="logoutButton" style="display: none;">Cerrar Sesión</button></li>
         </ul>
       </nav>
@@ -41,7 +45,7 @@
           <img src="assets/noticias.webp" alt="" />
           <h2>Noticias</h2>
         </a>
-        <a class="container-page" href="pages/registro.html">
+        <a class="container-page" href="pages/register.php">
           <img src="assets/registro.png" alt="" />
           <h2>Registro</h2>
         </a>
